@@ -1,0 +1,1 @@
+../../../OBGoodsDetailServiceProtocol/OBGoodsDetailServiceProtocol/OBGoodsDetailServiceProtocol/OBGoodsDetailServiceProtocol.h

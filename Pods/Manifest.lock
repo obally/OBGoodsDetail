@@ -1,0 +1,18 @@
+PODS:
+  - OBConfimOrderServiceProtocol (0.0.1)
+  - OBGoodsDetailServiceProtocol (0.0.1)
+  - OBProtocolManager (0.0.1)
+
+DEPENDENCIES:
+  - OBConfimOrderServiceProtocol
+  - OBGoodsDetailServiceProtocol
+  - OBProtocolManager
+
+SPEC CHECKSUMS:
+  OBConfimOrderServiceProtocol: 9ca5a30e9bf597c69d13517b2ff3acc26d135c8b
+  OBGoodsDetailServiceProtocol: 1c6ccb97bbe0f5e6315ae1b4df5dcf900f4e2eb5
+  OBProtocolManager: a7220a41adaefa8cc1139b3d5f5fe77feb00cb09
+
+PODFILE CHECKSUM: 928b0cdbc4d3d4a5762ad352d8196f5ce33799e9
+
+COCOAPODS: 1.1.1

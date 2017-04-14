@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2605B99A075EEB74DD269AE5 /* libPods-OBGoodsDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CB89CB65D750783F3AE9EE /* libPods-OBGoodsDetail.a */; };
 		2BDC87631EA06B46009C1592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC87621EA06B46009C1592 /* main.m */; };
 		2BDC87661EA06B46009C1592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC87651EA06B46009C1592 /* AppDelegate.m */; };
 		2BDC87691EA06B46009C1592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC87681EA06B46009C1592 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		2BDC87711EA06B46009C1592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDC876F1EA06B46009C1592 /* LaunchScreen.storyboard */; };
 		2BDC877C1EA06B46009C1592 /* OBGoodsDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC877B1EA06B46009C1592 /* OBGoodsDetailTests.m */; };
 		2BDC87871EA06B46009C1592 /* OBGoodsDetailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC87861EA06B46009C1592 /* OBGoodsDetailUITests.m */; };
+		2BDC87971EA06B96009C1592 /* OBGoodsDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC87961EA06B96009C1592 /* OBGoodsDetailServiceProvide.m */; };
+		2BDC879A1EA06BB8009C1592 /* OBGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC87991EA06BB8009C1592 /* OBGoodsDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13CB89CB65D750783F3AE9EE /* libPods-OBGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OBGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDC875E1EA06B46009C1592 /* OBGoodsDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBGoodsDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDC87621EA06B46009C1592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BDC87641EA06B46009C1592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		2BDC87821EA06B46009C1592 /* OBGoodsDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBGoodsDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDC87861EA06B46009C1592 /* OBGoodsDetailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBGoodsDetailUITests.m; sourceTree = "<group>"; };
 		2BDC87881EA06B46009C1592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDC87951EA06B96009C1592 /* OBGoodsDetailServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBGoodsDetailServiceProvide.h; sourceTree = "<group>"; };
+		2BDC87961EA06B96009C1592 /* OBGoodsDetailServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBGoodsDetailServiceProvide.m; sourceTree = "<group>"; };
+		2BDC87981EA06BB8009C1592 /* OBGoodsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBGoodsDetailViewController.h; sourceTree = "<group>"; };
+		2BDC87991EA06BB8009C1592 /* OBGoodsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBGoodsDetailViewController.m; sourceTree = "<group>"; };
+		598BA4F4CACE47983220B460 /* Pods-OBGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBGoodsDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-OBGoodsDetail/Pods-OBGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
+		A50A5FFCC3D4EB35E5BDCEC1 /* Pods-OBGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBGoodsDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OBGoodsDetail/Pods-OBGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2605B99A075EEB74DD269AE5 /* libPods-OBGoodsDetail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				2BDC877A1EA06B46009C1592 /* OBGoodsDetailTests */,
 				2BDC87851EA06B46009C1592 /* OBGoodsDetailUITests */,
 				2BDC875F1EA06B46009C1592 /* Products */,
+				DC4EB6E7320BA14C92100948 /* Pods */,
+				E40860DD236FE828A87E7211 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +114,7 @@
 		2BDC87601EA06B46009C1592 /* OBGoodsDetail */ = {
 			isa = PBXGroup;
 			children = (
+				2BDC87941EA06B7F009C1592 /* OBGoodsDetail */,
 				2BDC87641EA06B46009C1592 /* AppDelegate.h */,
 				2BDC87651EA06B46009C1592 /* AppDelegate.m */,
 				2BDC87671EA06B46009C1592 /* ViewController.h */,
@@ -140,6 +154,34 @@
 			path = OBGoodsDetailUITests;
 			sourceTree = "<group>";
 		};
+		2BDC87941EA06B7F009C1592 /* OBGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2BDC87951EA06B96009C1592 /* OBGoodsDetailServiceProvide.h */,
+				2BDC87961EA06B96009C1592 /* OBGoodsDetailServiceProvide.m */,
+				2BDC87981EA06BB8009C1592 /* OBGoodsDetailViewController.h */,
+				2BDC87991EA06BB8009C1592 /* OBGoodsDetailViewController.m */,
+			);
+			path = OBGoodsDetail;
+			sourceTree = "<group>";
+		};
+		DC4EB6E7320BA14C92100948 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A50A5FFCC3D4EB35E5BDCEC1 /* Pods-OBGoodsDetail.debug.xcconfig */,
+				598BA4F4CACE47983220B460 /* Pods-OBGoodsDetail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E40860DD236FE828A87E7211 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CB89CB65D750783F3AE9EE /* libPods-OBGoodsDetail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BDC878B1EA06B46009C1592 /* Build configuration list for PBXNativeTarget "OBGoodsDetail" */;
 			buildPhases = (
+				33836BE55C3098934896BD73 /* [CP] Check Pods Manifest.lock */,
 				2BDC875A1EA06B46009C1592 /* Sources */,
 				2BDC875B1EA06B46009C1592 /* Frameworks */,
 				2BDC875C1EA06B46009C1592 /* Resources */,
+				0C8640C03E48E7E94583EFFC /* [CP] Embed Pods Frameworks */,
+				ED9EC47F3A8ECF0D76E8E9F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +316,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C8640C03E48E7E94583EFFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OBGoodsDetail/Pods-OBGoodsDetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33836BE55C3098934896BD73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9EC47F3A8ECF0D76E8E9F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OBGoodsDetail/Pods-OBGoodsDetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BDC875A1EA06B46009C1592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,7 +371,9 @@
 			files = (
 				2BDC87691EA06B46009C1592 /* ViewController.m in Sources */,
 				2BDC87661EA06B46009C1592 /* AppDelegate.m in Sources */,
+				2BDC87971EA06B96009C1592 /* OBGoodsDetailServiceProvide.m in Sources */,
 				2BDC87631EA06B46009C1592 /* main.m in Sources */,
+				2BDC879A1EA06BB8009C1592 /* OBGoodsDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +520,7 @@
 		};
 		2BDC878C1EA06B46009C1592 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50A5FFCC3D4EB35E5BDCEC1 /* Pods-OBGoodsDetail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9BU355MET;
@@ -437,6 +533,7 @@
 		};
 		2BDC878D1EA06B46009C1592 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598BA4F4CACE47983220B460 /* Pods-OBGoodsDetail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9BU355MET;
@@ -516,6 +613,7 @@
 				2BDC878D1EA06B46009C1592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BDC878E1EA06B46009C1592 /* Build configuration list for PBXNativeTarget "OBGoodsDetailTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +622,7 @@
 				2BDC87901EA06B46009C1592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BDC87911EA06B46009C1592 /* Build configuration list for PBXNativeTarget "OBGoodsDetailUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +631,7 @@
 				2BDC87931EA06B46009C1592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

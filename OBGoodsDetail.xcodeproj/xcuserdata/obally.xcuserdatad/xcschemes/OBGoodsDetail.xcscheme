@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BDC875D1EA06B46009C1592"
+               BuildableName = "OBGoodsDetail.app"
+               BlueprintName = "OBGoodsDetail"
+               ReferencedContainer = "container:OBGoodsDetail.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BDC87761EA06B46009C1592"
+               BuildableName = "OBGoodsDetailTests.xctest"
+               BlueprintName = "OBGoodsDetailTests"
+               ReferencedContainer = "container:OBGoodsDetail.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BDC87811EA06B46009C1592"
+               BuildableName = "OBGoodsDetailUITests.xctest"
+               BlueprintName = "OBGoodsDetailUITests"
+               ReferencedContainer = "container:OBGoodsDetail.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BDC875D1EA06B46009C1592"
+            BuildableName = "OBGoodsDetail.app"
+            BlueprintName = "OBGoodsDetail"
+            ReferencedContainer = "container:OBGoodsDetail.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BDC875D1EA06B46009C1592"
+            BuildableName = "OBGoodsDetail.app"
+            BlueprintName = "OBGoodsDetail"
+            ReferencedContainer = "container:OBGoodsDetail.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BDC875D1EA06B46009C1592"
+            BuildableName = "OBGoodsDetail.app"
+            BlueprintName = "OBGoodsDetail"
+            ReferencedContainer = "container:OBGoodsDetail.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

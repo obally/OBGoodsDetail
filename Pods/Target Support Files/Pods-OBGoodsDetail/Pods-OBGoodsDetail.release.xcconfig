@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/OBConfimOrderServiceProtocol" "${PODS_ROOT}/Headers/Public/OBGoodsDetailServiceProtocol" "${PODS_ROOT}/Headers/Public/OBProtocolManager"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/OBProtocolManager"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/OBConfimOrderServiceProtocol" -isystem "${PODS_ROOT}/Headers/Public/OBGoodsDetailServiceProtocol" -isystem "${PODS_ROOT}/Headers/Public/OBProtocolManager"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"OBProtocolManager"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
