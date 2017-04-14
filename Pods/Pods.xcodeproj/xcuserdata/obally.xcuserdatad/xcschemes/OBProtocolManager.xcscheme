@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '16286B0D97C2B6578C6E7A527165A17E'
+               BlueprintIdentifier = '75444C8BCDFF21C0635D471FE9F178DA'
                BlueprintName = 'OBProtocolManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libOBProtocolManager.a'>

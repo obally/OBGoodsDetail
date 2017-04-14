@@ -4,6 +4,7 @@ target 'OBGoodsDetail' do
 
 pod "OBProtocolManager"
 pod "OBGoodsDetailServiceProtocol"
-pod "OBConfimOrderServiceProtocol"
+pod "OBConfimOrderServiceProtocol",:git => 'https://github.com/obally/OBConfimOrderServiceProtocol.git'
+
 end
 

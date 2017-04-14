@@ -1,18 +1,27 @@
 PODS:
-  - OBConfimOrderServiceProtocol (0.0.1)
+  - OBConfimOrderServiceProtocol (0.0.2)
   - OBGoodsDetailServiceProtocol (0.0.1)
   - OBProtocolManager (0.0.1)
 
 DEPENDENCIES:
-  - OBConfimOrderServiceProtocol
+  - OBConfimOrderServiceProtocol (from `https://github.com/obally/OBConfimOrderServiceProtocol.git`)
   - OBGoodsDetailServiceProtocol
   - OBProtocolManager
 
+EXTERNAL SOURCES:
+  OBConfimOrderServiceProtocol:
+    :git: https://github.com/obally/OBConfimOrderServiceProtocol.git
+
+CHECKOUT OPTIONS:
+  OBConfimOrderServiceProtocol:
+    :commit: af0606c771b722cf6f1a50e9796dcfc01283bd32
+    :git: https://github.com/obally/OBConfimOrderServiceProtocol.git
+
 SPEC CHECKSUMS:
-  OBConfimOrderServiceProtocol: 9ca5a30e9bf597c69d13517b2ff3acc26d135c8b
+  OBConfimOrderServiceProtocol: 8ce4e8d917a69aad95c90795aa8bdea9d6fbe3af
   OBGoodsDetailServiceProtocol: 1c6ccb97bbe0f5e6315ae1b4df5dcf900f4e2eb5
   OBProtocolManager: a7220a41adaefa8cc1139b3d5f5fe77feb00cb09
 
-PODFILE CHECKSUM: 928b0cdbc4d3d4a5762ad352d8196f5ce33799e9
+PODFILE CHECKSUM: 1af43f4e0a64ed1b980aad177093bf5e226964b3
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
